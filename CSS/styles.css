@@ -1,0 +1,15 @@
+/* Creating different styles using CSS*/
+
+body {
+    font-family: arial;
+    background-color: rgb(185,179,175);
+}
+
+h1,h2 {
+    font-family: Arial, Verdana, sans-serif;
+    color: #ee3e80
+}
+
+p {
+    color: #665544;
+}
