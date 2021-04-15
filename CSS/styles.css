@@ -10,6 +10,11 @@ h1,h2 {
     color: #ee3e80
 }
 
+h8,h11 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#1155a3
+}
+
 p {
-    color: #665544;
+    color: #dd0b0b;
 }
