@@ -1,8 +1,17 @@
 /* Creating different styles using CSS*/
 
+* {
+    font-family: georgia;
+}
 body {
-    font-family: arial;
+    font-family: arial !important;
     background-color: rgb(185,179,175);
+}
+
+.page {
+    border: 1px solid #665544;
+    background-color: aquamarine;
+    padding: inherit;
 }
 
 h1,h2 {
@@ -14,6 +23,57 @@ h8,h11 {
    font-family: Georgia, 'Times New Roman', Times, serif;
     color:#1155a3
 }
+
+h14 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.firstFont { /* use . something to address the class in a certain division that you created in the HTML file*/
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800; /* font weight --> makes bolder*/
+    text-shadow: 1px 1px 3px #666666;  /*adds shadow on words*/
+}
+
+.secondFont {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: 1000;
+    text-transform: uppercase;
+    text-indent: 20px; /*allows indentation with the specified gap length*/
+}
+
+.thirdFont {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration:double;
+}
+
+.fourthFont {
+    font-weight: bold;
+    text-decoration: blink;
+    text-align: center;  /*aligns text location*/
+}
+
+.fifthFont {
+    line-height: 1.4em; /*Increases line-height "vertical gap"*/
+    word-spacing: 1em;
+    letter-spacing: 0.2em; /*increases gaps b/w letters*/
+    
+}
+
+input {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #665544;
+}
+/* Not exactly sure how the hover, active, and input methods work on CSS yet..
+input.fifthFont: hover {
+    background-color: #665544;
+}
+
+input.fifthFont: active {
+    background-color: chocolate;
+} */
+
 
 p {
     color: #dd0b0b;
